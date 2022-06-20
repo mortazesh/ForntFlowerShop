@@ -1,0 +1,10 @@
+.conatiner-fotter {
+    width: 100%;
+    height: 500px;
+    background: url('../../../Assat/Images/footer.png') center no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 165px;
+}

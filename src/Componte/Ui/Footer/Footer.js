@@ -1,11 +1,15 @@
 import React from 'react'
 
+import TopFooter from './TopFooter/TopFooter'
+import BottomFooter from './BottomFooter/BottomFooter'
+
 import './Footer.css'
 
 const Footer = () => {
   return(
-    <footer>
-    
+    <footer className='conatiner-fotter'>
+        <TopFooter/>
+        <BottomFooter/>
     </footer>
   )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 
 import NavItem from './NavItem/NavItem'
-import Login from './Login/Login'
 
 import './Nav.css'
 
@@ -14,8 +13,8 @@ const Nav = () => {
         <NavItem href='/shop'>
           فروشگاه
         </NavItem>
-        <NavItem href='/gallery'>
-          گالری
+        <NavItem href='/Article'>
+          مقالات
         </NavItem>
         <NavItem href='/'>
            پربازدید ترین
@@ -26,7 +25,6 @@ const Nav = () => {
         <NavItem href='/about'>
            درباره ی ما
         </NavItem>
-        <Login/>
       </ul>
   )
 }
